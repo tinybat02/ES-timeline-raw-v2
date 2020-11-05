@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "Timeline Raw v2",
+  "id": "id-timeline-es-v2",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "Timeline Raw v2",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}

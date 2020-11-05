@@ -1,0 +1,22 @@
+{
+  "name": "es-timeline-raw-v2",
+  "version": "1.0.0",
+  "description": "ES Timeline v2",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Nam Le",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next"
+  },
+  "dependencies": {
+    "@nivo/line": "^0.63.1",
+    "dayjs": "^1.9.4"
+  }
+}
