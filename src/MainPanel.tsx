@@ -58,7 +58,7 @@ export class MainPanel extends PureComponent<Props, State> {
             height,
           }}
         >
-          <select style={{ marginLeft: 60 }}>
+          <select style={{ marginLeft: 60, width: 250 }}>
             {hashvendor.map(hash => (
               <option key={hash}>{hash}</option>
             ))}

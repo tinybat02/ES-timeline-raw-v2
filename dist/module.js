@@ -53511,7 +53511,8 @@ function (_super) {
         }
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
         style: {
-          marginLeft: 60
+          marginLeft: 60,
+          width: 250
         }
       }, hashvendor.map(function (hash) {
         return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
